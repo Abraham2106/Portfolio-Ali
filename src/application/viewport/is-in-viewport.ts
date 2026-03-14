@@ -17,7 +17,7 @@ export interface ViewportBounds {
 /** Returns true if a rect is in viewport with the given threshold (0..1). */
 export function isInViewport(rect: RectLike, viewport: ViewportBounds, threshold: number): boolean {
   const trigger = rect.top + rect.height * threshold;
-  return trigger >= 0 && rect.top <= viewport.height;
+  return trigger >= 0 && trigger <= viewport.height;
 }
 
 

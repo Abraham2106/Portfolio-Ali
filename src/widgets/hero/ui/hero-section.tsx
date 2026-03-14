@@ -115,12 +115,12 @@ export function HeroSection() {
             <h1
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "clamp(56px, 7.5vw, 96px)",
-                fontWeight: "700",
+                fontSize: "clamp(76px, 10vw, 130px)",
+                fontWeight: "300",
                 color: "var(--color-identity)",
                 lineHeight: "0.95",
                 letterSpacing: "-0.02em",
-                textTransform: "uppercase",
+                textTransform: "none",
               }}
             >
               {EDUCATOR_PROFILE.displaySurname}
